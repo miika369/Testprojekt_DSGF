@@ -37,6 +37,7 @@ Extract the .exe file and add the folder path to your systems PATH variable.
 To set your own credentials create a ".env" file and structure it like this:
 
 ```plaintext
+DB_HOST=your_db_host
 DB_ROOT_PASSWORD=your_root_password
 DB_NAME=swag_labs_db
 DB_USER=tester
