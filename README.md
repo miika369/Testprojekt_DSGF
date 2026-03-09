@@ -33,6 +33,7 @@ pip install robotframework robotframework-seleniumlibrary robotframework-datalay
 Extract the .exe file and add the folder path to your systems PATH variable.
 
 ## [Docker](https://www.docker.com/products/docker-desktop/)
+Follow the installation steps on the docker website for your specific operating system.
 
 To set your own credentials create a ".env" file and structure it like this:
 
@@ -61,6 +62,8 @@ services:
             MYSQL_PASSWORD: ${DB_PASSWORD}
         ports:
             - "3306:3306"
+        volumes:
+            - ./init-db:/docker-entrypoint-initdb.d
     
     phpmyadmin:
         image: phpmyadmin:latest
@@ -72,8 +75,16 @@ services:
             PMA_HOST: database
             MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
 ```
-Run your environment using:
+This command automatically pulls the required images and initializes both the SQL database and the phpMyAdmin web interface:
 
 ```bash
 docker-compose up -d
+```
+
+# Running the tests
+
+To execute the automated test, run the following command in your terminal:
+
+```bash
+robot -d results/ robot/saucedemo.robot
 ```
