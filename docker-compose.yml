@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
     database:
         image: mysql:latest
@@ -12,6 +10,8 @@ services:
             MYSQL_PASSWORD: ${DB_PASSWORD}
         ports:
             - "3306:3306"
+        volumes:
+            - ./init-db:/docker-entrypoint-initdb.d
     
     phpmyadmin:
         image: phpmyadmin:latest
