@@ -1,0 +1,7 @@
+*** Test Cases ***;${username};${password}
+Standard User Login;standard_user;secret_sauce
+Locked Out User Login;locked_out_user;secret_sauce
+Problem User Login;problem_user;secret_sauce
+Performance Glitch User Login;performance_glitch_user;secret_sauce
+Error User Login;error_user;secret_sauce
+Visual User Login;visual_user;secret_sauce
