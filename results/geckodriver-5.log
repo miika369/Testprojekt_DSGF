@@ -1,0 +1,21 @@
+1773052382210	geckodriver	INFO	Listening on 127.0.0.1:61458
+1773052385303	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61459" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shulg\\AppData\\Local\\Temp\\rust_mozprofile2RR1rd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1773052385474	Marionette	INFO	Marionette enabled
+1773052385533	Marionette	INFO	Listening on port 61468
+WebDriver BiDi listening on ws://127.0.0.1:61459
+Read port: 61468
+1773052385666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript error: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: TypeError: can't access property "value", e.totallyUndefined is undefined
+JavaScript error: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: TypeError: can't access property "value", e.totallyUndefined is undefined
+JavaScript error: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: TypeError: can't access property "value", e.totallyUndefined is undefined
+JavaScript error: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: TypeError: can't access property "value", e.totallyUndefined is undefined
+JavaScript error: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: TypeError: Ye.cesetRart is not a function
+1773052387662	Marionette	INFO	Stopped listening on port 61468
+Dynamically enable window occlusion 1
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
