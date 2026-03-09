@@ -25,7 +25,7 @@ Install the extension "RobotCode"
 Install the required libraries by running the following command in your VSC terminal:
 
 ```bash
-pip install robotframework robotframework-seleniumlibrary mysql-connector-python python-dotenv
+pip install robotframework robotframework-seleniumlibrary robotframework-datalayer mysql-connector-python python-dotenv
 ```
 
 ## [Geckodriver](https://github.com/mozilla/geckodriver/releases)
